@@ -6,7 +6,7 @@
 # character.
 
 [tool.black]
-line-length = 100
+line-length = 88
 target-version = ['py39']
 include = '\.pyi?$'
 extend-exclude = '''
@@ -190,7 +190,7 @@ CC = "clang"
 [tool.isort]
 atomic = true
 profile = "black"
-line_length = 100
+line_length = 88
 skip_gitignore = true
 skip_glob = ["tests/data", "profiling"]
 known_first_party = ["black", "blib2to3", "blackd", "_black_version"]
